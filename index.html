@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator Program</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="calculator.js"></script>
+</head>
+<body>
+	<form name="form">
+		<table>
+			<tr>
+				<td class="heading">
+					Simple Math Calculator
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input name="textview" placeholder="0" readonly="readonly" id="input">
+				</td>
+			</tr>
+
+			<tr>
+				<td><br>
+					<input type="button" value="AC" onclick="clr()" style="background-color: #C5211C;">
+
+					<input type="button" value="X" onclick="back()" style="background-color: #FA9F42;">
+
+					<input type="button" value="/" onclick="insert('/')" style="background-color: #FA9F42;">
+
+					<input type="button" value="*" onclick="insert('*')" style="background-color: #FA9F42;"><br>
+
+
+					<input type="button" value="1" onclick="insert(1)">
+
+					<input type="button" value="2" onclick="insert(2)">
+
+					<input type="button" value="3" onclick="insert(3)">
+
+					<input type="button" value="-" onclick="insert('-')" style="background-color: #FA9F42;"><br>
+
+
+					<input type="button" value="4" onclick="insert(4)">
+
+					<input type="button" value="5" onclick="insert(5)">
+
+					<input type="button" value="6" onclick="insert(6)">
+
+					<input type="button" value="+" onclick="insert('+')" style="background-color: #FA9F42;"><br>
+
+
+					<input type="button" value="7" onclick="insert(7)">
+
+					<input type="button" value="8" onclick="insert(8)">
+
+					<input type="button" value="9" onclick="insert(9)">
+
+					<input type="button" value="0" onclick="insert(0)"><br><br> 
+
+
+					<input type="button" value="=" onclick="equal()" style="background-color: #41436A; font-size: 140%;">
+
+
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

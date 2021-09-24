@@ -1,0 +1,50 @@
+table{
+	width: 300px;
+	margin: 30px auto;
+	background-color: #262424;
+	border: none;
+	border-radius: 20px;
+	padding: 15px 15px;
+}
+
+.heading{
+	color: white;
+	font-size: 120%;
+	text-align: center;
+}
+
+#input{
+	height: 50px;
+	font-size: 120%;
+	text-align: right;
+	border: none;
+	width: 260px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+}
+
+input[type=button]{
+	height: 60px;
+	width: 60px;
+	color: #293556;
+	margin: 1px;
+	border-radius: 50%;
+	border: none;
+	background-color: #F6E2BC;
+	box-shadow: 10px 10px 10px black;
+	font-size: 100%;
+}
+
+input[type=button]:hover{
+	cursor: pointer;
+	background-color: #FB8C6F;
+}
+
+@font-face{
+	src: url("font/Staatliches-Regular.ttf");
+	font-family: Staatliches;
+}
+
+*{
+	font-family: Staatliches;
+}
